@@ -7,7 +7,7 @@ def fetch_data():
     mydb = mysql.connector.connect (
         host = "localhost",
         user = "root",
-        password = "JamalMusiala42!",
+        password = "",
         database = "store"
     )
     cursor = mydb.cursor()
